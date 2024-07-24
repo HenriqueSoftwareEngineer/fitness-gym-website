@@ -1,0 +1,55 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+
+body{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+
+
+
+/* Abaixo estão quatros Breakpoints principais */
+@media(max-width:1600px){
+    body{
+        
+    }
+
+}
+
+@media(max-width:1024px){
+    body{
+        
+    }
+}
+
+@media(max-width:768px){
+    body{
+        
+    }
+}
+
+@media(max-width:320px){
+    body{
+        
+    }
+    .header__row__top__contacts{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+}
